@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apollo 247</title>
+    <link rel="stylesheet" href="/homeStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-------Navbar header-->
+      <div class="NavContainer">
+        <header class="navbar" data-cypress="Header">
+          <div class="style16">
+            <a href="/home.html" title="Home" class="ApolloLogo"
+              ><img
+                src="https://newassets.apollo247.com/images/ic_logo.png"
+                title="Online Doctor Consultation &amp; Medicines"
+                alt="Online Doctor Consultation &amp; Medicines"
+            /></a>
+          </div>
+
+          <div class="style14">
+            <div class="style173 style175" data-cypress="Navigation">
+              <a title="Doctors" class="" href="/specialties.html"
+                ><span class="style176">Doctors</span
+                ><span class="style177"
+                  >Consult <br />
+                  Online</span
+                ></a
+              ><a class="" title="Pharmacy" href="#">
+                <span class="style176">Pharmacy</span
+                ><span class="style177"
+                  >Medicines &amp;<br />
+                  other products</span
+                ></a
+              ><a class="" title="Tests" href="/lab-tests"
+                ><span class="style176">Lab Tests</span
+                ><span class="style177"
+                  >Health<br />
+                  check-ups</span
+                ></a
+              ><a class="" title="Covid-19" href="/blog"
+                ><span class="style176">Covid-19</span
+                ><span class="style177"
+                  >Latest<br />
+                  updates</span
+                ></a
+              >
+              <div id="cartId" class="style179">
+                <div class="style191">
+                  <span class="icon-ic_cart"></span
+                  ><span class="style180">0</span>
+                </div>
+              </div>
+            </div>
+            <div class="style25">
+              <div class="style15 style18">
+                <div id="loginPopup" class="style19 style20" title="Login/SignUp">
+                  <span class="icon-ic_account"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!---main Container-->
+      <div class="style2">
+        <div class="style3">
+          <div class="style73" data-cypress="HeroBanner">
+            <div class="style75">
+              <span class="style88">hello there!</span>
+              <p>Always caring about your health, we are here to help you!</p>
+              <div class="style94">
+                <div class="style95">
+                  <div
+                    class="MuiPaper-root style96 style97 MuiPaper-elevation1 MuiPaper-rounded"
+                  >
+                    <a
+                      title="Book Appointment with Apollo Doctors"
+                      href="/specialties.html"
+                      ><div class="MuiAvatar-root MuiAvatar-circle style99">
+                        <img
+                          alt=""
+                          src="https://newassets.apollo247.com/images/ic-doctor.svg"
+                          class="MuiAvatar-img"
+                        />
+                      </div>
+                      <div class="style98">
+                        <h1
+                          class="MuiTypography-root MuiTypography-h1"
+                          title="Book Appointment with Apollo Doctors"
+                        >
+                          Book Appointment with Apollo Doctors
+                        </h1>
+                      </div>
+                      <img
+                        class="style100"
+                        src="https://newassets.apollo247.com/images/ic_arrow_right_white.svg"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+                <div class="style95">
+                  <div
+                    class="MuiPaper-root style96 style97 MuiPaper-elevation1 MuiPaper-rounded"
+                  >
+                    <a title="Buy Medicines and Essentials" href="#"
+                      ><div class="MuiAvatar-root MuiAvatar-circle style99">
+                        <img
+                          alt=""
+                          src="https://newassets.apollo247.com/images/ic_medicines.png"
+                          class="MuiAvatar-img"
+                        />
+                      </div>
+                      <div class="style98">
+                        <h1
+                          class="MuiTypography-root MuiTypography-h1"
+                          title="Buy Medicines and Essentials"
+                        >
+                          Buy Medicines and Essentials
+                        </h1>
+                      </div>
+                      <img
+                        class="style100"
+                        src="https://newassets.apollo247.com/images/ic_arrow_right_white.svg"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+                <div class="style95 style95flex">
+                  <div class="style95_2">
+                    <div
+                      class="MuiPaper-root style96 MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <a title="Book Lab Tests" href="/lab-tests"
+                        ><div class="MuiAvatar-root MuiAvatar-circle style99">
+                          <img
+                            alt=""
+                            src="https://newassets.apollo247.com/images/ic_home_test.svg"
+                            class="MuiAvatar-img"
+                          />
+                        </div>
+                        <div class="style98">
+                          <h3
+                            class="MuiTypography-root MuiTypography-h3"
+                            title="Book Lab Tests"
+                          >
+                            Book Lab Tests
+                          </h3>
+                        </div>
+                        <img
+                          class="style101"
+                          src="https://newassets.apollo247.com/images/ic_arrow_right_white.svg"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="style95_2">
+                    <div
+                      class="MuiPaper-root style96 MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <a title="View Health Records" href=""
+                        ><div class="MuiAvatar-root MuiAvatar-circle style99">
+                          <img
+                            alt=""
+                            src="https://newassets.apollo247.com/images/ic-prescription.svg"
+                            class="MuiAvatar-img"
+                          />
+                        </div>
+                        <div class="style98">
+                          <h3
+                            class="MuiTypography-root MuiTypography-h3"
+                            title="View Health Records"
+                          >
+                            View Health Records
+                          </h3>
+                        </div>
+                        <img
+                          class="style101"
+                          src="https://newassets.apollo247.com/images/ic_arrow_right_white.svg"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="style76">
+              <img
+                class="style85"
+                src="https://newassets.apollo247.com/images/img-doctors@1x.jpg"
+                alt="Online Doctor Consultation &amp; Medicines"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="style4">
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            
+            <img src="/images.png" style="width: 100%" />
+            
+          </div>
+    
+          <div class="mySlides fade">
+            
+            <img src="/images2.jpg" style="width: 100%" />
+          
+          </div>
+    
+          <div class="mySlides fade">
+            <img src="/images3.jpg" style="width: 100%" />
+            
+          </div>
+    
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+    <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <div class="style7">
+        <div class="style122">
+          <div class="style123">
+            <div class="style124">
+              <div class="style125">For COVID-19 Vaccination related queries</div>
+              <div class="style127">
+                <div class="style126">
+                  <a class="mainBx"
+                    ><span class="iconMain"
+                      ><span class="icon-vaccine_faq"
+                        ><span>FAQs &amp; Articles</span></a
+                  >
+                </div>
+                <div class="style126">
+                  <a class="mainBx"
+                    ><span class="iconMain"
+                      ><span class="icon-vaccine_call"
+                        ><span>Vaccination Queries</span></a
+                  >
+                </div>
+                <div class="style126">
+                  <a class="mainBx">
+                    <span
+                      ><span class="icon-vaccine_chat"
+                        ><span>Chat with us</span>
+                      </a>
+                  </div>
+                <div class="style126">
+                  <a class="mainBx"
+                    ><span
+                      ></span
+                    ><span>Cowin Registration</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+      <!-----health articles-->
+      <div class="style144">
+        <div
+          class="style145"
+          style="
+            background-image: url('https://newassets.apollo247.com/images/ecosystem-banner.jpg');
+          "
+        >
+          <div class="style147">
+            <div class="style148">Health Articles &amp; Resources</div>
+            <p>
+              Make better health choices with our curated blogs, videos and
+              expert advice.
+            </p>
+          </div>
+        </div>
+        <div class="style149">
+          <div class="style156">
+            <h3 class="MuiTypography-root MuiTypography-body1">Health Blog</h3>
+            <div class="style157">
+              <p class="MuiTypography-root MuiTypography-body1">
+                Explore healthcare content created every day by our experts.
+              </p>
+              <a
+                class="MuiButtonBase-root MuiButton-root style168 MuiButton-text"
+                tabindex="0"
+                aria-disabled="false"
+                href="/blog"
+                ><span class="MuiButton-label"
+                  ><span class="icon-article"></span> Read the Latest
+                  Articles</span
+                ><span class="MuiTouchRipple-root"></span
+              ></a>
+            </div>
+          </div>
+          <div class="style152">
+            <div class="style153">You can also</div>
+            <div class="style158">
+              <div class="style154">
+                <a href="#"
+                  ><span
+                    ><img
+                      src="https://newassets.apollo247.com/images/ic_psychologist.svg"
+                      style="width: 24px"
+                      height="100%"
+                      width="100%" /></span
+                  ><span>Take a mental health scan</span></a
+                >
+              </div>
+              <div class="style154">
+                <a href="/partners/hdfc" target="_blank"
+                  ><span
+                    ><img
+                      src="https://assets.apollo247.com/images/ic_healthy_life.png"
+                      style="width: 24px"
+                      height="100%"
+                      width="100%" /></span
+                  ><span>Explore HealthyLife</span></a
+                >
+              </div>
+              <a class="style154" href="/covid19/kavach"
+                ><span
+                  ><img
+                    src="https://newassets.apollo247.com/images/apollo-kavach.png"
+                    style="width: 24px"
+                    height="100%"
+                    width="100%" /></span
+                ><span>Explore the Apollo Kavach Program</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--singhup bar-->
+      <div class="MuiManageProfile-signUpBar">
+        <div class="MuiManageProfile-mascotCircle" title="Need Help?">
+          <img
+            src="https://newassets.apollo247.com/images/ic-mascot.png"
+            alt="Need Help"
+            height="100%"
+            width="100%"
+          />
+        </div>
+      </div>
+      <!----bottom black paSrt-->
+      <div class="Bottom-root">
+        <div class="Bottom-container">
+          <div class="Bottom-bottomLinks">
+            <ul>
+              <li class="Bottom-LogoMd">
+                <a title="Home" href="/" class="Bottom-logo"
+                  ><img
+                    src="https://newassets.apollo247.com/images/ic_logo.png"
+                    title="Online Doctor Consultation &amp; Medicines"
+                    alt="Online Doctor Consultation &amp; Medicines"
+                /></a>
+              </li>
+              <li>
+                <div class="Bottom-panelRoot">
+                  <div class="Bottom-panelHeader">
+                    <div class="Bottom-collapseHeader">About Apollo 247</div>
+                  </div>
+                  <div class="Bottom-panelDetailsBlock Bottom-defaultOpen">
+                    <a title="About Us" class="Bottom-innerLinks" href="AboutUs"
+                      >About Us</a
+                    ><a
+                      title="Contact Us / Grievance"
+                      class="Bottom-innerLinks"
+                      href="contact"
+                      >Contact Us / Grievance</a
+                    ><a title="FAQs" class="Bottom-innerLinks" href="faq"
+                      >FAQs</a
+                    ><a
+                      title="Health Queries"
+                      class="Bottom-innerLinks"
+                      href="health-queries"
+                      >Health Queries</a
+                    ><a
+                      title="Terms and Conditions"
+                      class="Bottom-innerLinks"
+                      href="terms"
+                      >Terms and Conditions</a
+                    ><a
+                      title="Returns Policy "
+                      class="Bottom-innerLinks"
+                      href="returns"
+                      >Returns Policy </a
+                    ><a
+                      title="Refund Policy"
+                      class="Bottom-innerLinks"
+                      href="refund-policy"
+                      >Refund Policy</a
+                    ><a
+                      title="Privacy Policy"
+                      class="Bottom-innerLinks"
+                      href="privacy"
+                      >Privacy Policy</a
+                    ><a
+                      title="Apollo 247 Android App"
+                      class="Bottom-innerLinks"
+                      href="#"
+                      >Apollo 247 Android App</a
+                    ><a
+                      title="Apollo 247 iOS App"
+                      class="Bottom-innerLinks"
+                      href="#"
+                      >Apollo 247 iOS App</a
+                    ><a
+                      title="Apollo 247 Sitemap"
+                      class="Bottom-innerLinks"
+                      href="static/sitemap"
+                      >Apollo 247 Sitemap</a
+                    ><a
+                      title="Online Doctor App"
+                      class="Bottom-innerLinks"
+                      href="http://onelink.to/qtv8we"
+                      >Online Doctor App</a
+                    ><a
+                      title="Online Medicine App"
+                      class="Bottom-innerLinks"
+                      href="https://play.google.com/store/apps/details?id=com.apollo.patientapp"
+                      >Online Medicine App</a
+                    ><a
+                      title="Apollo Pharmacy"
+                      class="Bottom-innerLinks"
+                      href=""
+                      >Apollo Pharmacy</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="Bottom-panelRoot">
+                  <div class="Bottom-panelHeader">
+                    <div class="Bottom-collapseHeader">Services</div>
+                  </div>
+                  <div class="Bottom-panelDetailsBlock Bottom-defaultOpen">
+                    <a
+                      title="Online Doctor Consultation"
+                      class="Bottom-innerLinks"
+                      href="/specialties.html"
+                      >Online Doctor Consultation</a
+                    ><a
+                      title="Apollo Circle Membership"
+                      class="Bottom-innerLinks"
+                      href="circle"
+                      >Apollo Circle Membership</a
+                    ><a
+                      title="Online Medicines"
+                      class="Bottom-innerLinks"
+                      href="medicines"
+                      >Online Medicines</a
+                    ><a
+                      title="Project Kavach"
+                      class="Bottom-innerLinks"
+                      href="covid19/kavach"
+                      >Project Kavach</a
+                    ><a
+                      title="Cough Scanner"
+                      class="Bottom-innerLinks"
+                      href="covid19/cough-scan/"
+                      >Cough Scanner</a
+                    ><a
+                      title="Covid Vaccine Tracker"
+                      class="Bottom-innerLinks"
+                      href="covid-vaccine-tracker/"
+                      >Covid Vaccine Tracker</a
+                    ><a
+                      title="Covid Vaccine Update"
+                      class="Bottom-innerLinks"
+                      href="covid-vaccine-update/"
+                      >Covid Vaccine Update</a
+                    ><a
+                      title="Apollo Pro Health Program"
+                      class="Bottom-innerLinks"
+                      href="apollo-pro-health"
+                      >Apollo Pro Health Program</a
+                    ><a
+                      title="Doctors by Specialty"
+                      class="Bottom-innerLinks"
+                      href="static/specialties-sitemap/1"
+                      >Doctors by Specialty</a
+                    ><a
+                      title="Doctors by City"
+                      class="Bottom-innerLinks"
+                      href="static/city-doctors-sitemap/1"
+                      >Doctors by City</a
+                    ><a
+                      title="All Doctors List"
+                      class="Bottom-innerLinks"
+                      href="static/doctors-sitemap/1"
+                      >All Doctors List</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="Bottom-panelRoot">
+                  <div class="Bottom-panelHeader">
+                    <div class="Bottom-collapseHeader">Top Specialties</div>
+                  </div>
+                  <div class="Bottom-panelDetailsBlock Bottom-defaultOpen">
+                    <a
+                      title="Covid Consultation"
+                      class="Bottom-innerLinks"
+                      href="specialties/covid-consultation"
+                      >Covid Consultation</a
+                    ><a
+                      title="Consult Physicians"
+                      class="Bottom-innerLinks"
+                      href="specialties/general-physician-internal-medicine"
+                      >Consult Physicians</a
+                    ><a
+                      title="Consult Dermatologists"
+                      class="Bottom-innerLinks"
+                      href="specialties/dermatology"
+                      >Consult Dermatologists</a
+                    ><a
+                      title="Consult Paediatricians"
+                      class="Bottom-innerLinks"
+                      href="specialties/paediatrics"
+                      >Consult Paediatricians</a
+                    ><a
+                      title="Consult Gynaecologists"
+                      class="Bottom-innerLinks"
+                      href="specialties/obstetrics-and-gynaecology"
+                      >Consult Gynaecologists</a
+                    ><a
+                      title="Consult Gastroenterologists"
+                      class="Bottom-innerLinks"
+                      href="specialties/gastroenterology-gi-medicine"
+                      >Consult Gastroenterologists</a
+                    ><a
+                      title="Consult Cardiologists"
+                      class="Bottom-innerLinks"
+                      href="specialties/cardiology"
+                      >Consult Cardiologists</a
+                    ><a
+                      title="Consult Dietitians"
+                      class="Bottom-innerLinks"
+                      href="specialties/dietetics"
+                      >Consult Dietitians</a
+                    ><a
+                      title="Consult ENT Specialists"
+                      class="Bottom-innerLinks"
+                      href="specialties/ent"
+                      >Consult ENT Specialists</a
+                    ><a
+                      title="Consult Geriatricians"
+                      class="Bottom-innerLinks"
+                      href="specialties/geriatrics"
+                      >Consult Geriatricians</a
+                    ><a
+                      title="Consult Diabetologists"
+                      class="Bottom-innerLinks"
+                      href="specialties/diabetology"
+                      >Consult Diabetologists</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="Bottom-panelRoot">
+                  <div class="Bottom-panelHeader">
+                    <div class="Bottom-collapseHeader">
+                      Book Lab Tests at Home
+                    </div>
+                  </div>
+                  <div class="Bottom-panelDetailsBlock Bottom-defaultOpen">
+                    <a
+                      title="RT PCR Test At Home"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/covid-19-rt-pcr-with-home-collection"
+                      >RT PCR Test At Home</a
+                    ><a
+                      title="Book Lab Tests at Home"
+                      class="Bottom-innerLinks"
+                      href="lab-tests"
+                      >Book Lab Tests at Home</a
+                    ><a
+                      title="Renal Profile (KFT, RFT Test)"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/renal-profile-renal-function-test-rft-kft"
+                      >Renal Profile (KFT, RFT Test)</a
+                    ><a
+                      title="Hemogram Test"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/hemogram"
+                      >Hemogram Test</a
+                    ><a
+                      title="Lipid Profile Test"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/lipid-profile"
+                      >Lipid Profile Test</a
+                    ><a
+                      title="Thyroid Profile Test (T3 T4 Tsh Test)"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/free-and-total-thyroid-profile-t3-t4-ft3-ft4-tsh"
+                      >Thyroid Profile Test (T3 T4 Tsh Test)</a
+                    ><a
+                      title="D Dimer Test"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/d-dimer"
+                      >D Dimer Test</a
+                    ><a
+                      title="Urine Culture Test"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/culture-and-sensitivity-urine"
+                      >Urine Culture Test</a
+                    ><a
+                      title="Complete Blood Count (CBC Test)"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/complete-blood-count-cbc"
+                      >Complete Blood Count (CBC Test)</a
+                    ><a
+                      title="Widal Test"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/widal-test-slide-method"
+                      >Widal Test</a
+                    ><a
+                      title="Liver Function Test (LFT Test)"
+                      class="Bottom-innerLinks"
+                      href="lab-tests/liver-function-test-lft-with-ggt"
+                      >Liver Function Test (LFT Test)</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="Bottom-panelRoot">
+                  <div class="Bottom-panelHeader">
+                    <div class="Bottom-collapseHeader">Product Categories</div>
+                  </div>
+                  <div class="Bottom-panelDetailsBlock Bottom-defaultOpen">
+                    <a
+                      title="View All Brands"
+                      class="Bottom-innerLinks"
+                      href="brands"
+                      >View All Brands</a
+                    ><a
+                      title="Health Care"
+                      class="Bottom-innerLinks"
+                      href="shop-by-category/health-care"
+                      >Health Care</a
+                    ><a
+                      title="Personal Care"
+                      class="Bottom-innerLinks"
+                      href="shop-by-category/personal-care"
+                      >Personal Care</a
+                    ><a
+                      title="Baby Care"
+                      class="Bottom-innerLinks"
+                      href="shop-by-category/mom-baby"
+                      >Baby Care</a
+                    ><a
+                      title="Nutrition"
+                      class="Bottom-innerLinks"
+                      href="shop-by-category/nutrition"
+                      >Nutrition</a
+                    ><a
+                      title="Healthcare Devices"
+                      class="Bottom-innerLinks"
+                      href="shop-by-category/healthcare-devices"
+                      >Healthcare Devices</a
+                    ><a
+                      title="Beauty Skin Care"
+                      class="Bottom-innerLinks"
+                      href="shop-by-health-conditions/beauty-skin-care"
+                      >Beauty Skin Care</a
+                    ><a
+                      title="Immunity Boosters"
+                      class="Bottom-innerLinks"
+                      href="shop-by-health-conditions/cold-immunity"
+                      >Immunity Boosters</a
+                    ><a
+                      title="Coronavirus Prevention"
+                      class="Bottom-innerLinks"
+                      href="shop-by-health-conditions/coronavirus-prevention"
+                      >Coronavirus Prevention</a
+                    ><a
+                      title="Diabetes Care"
+                      class="Bottom-innerLinks"
+                      href="shop-by-health-conditions/diabetic"
+                      >Diabetes Care</a
+                    ><a
+                      title="Patanjali Coronil Kit"
+                      class="Bottom-innerLinks"
+                      href="otc/patanjali-divya-swasari-coronil-kit"
+                      >Patanjali Coronil Kit</a
+                    ><a
+                      title="Mamaearth Products"
+                      class="Bottom-innerLinks"
+                      href="shop-by-brand/mamaearth"
+                      >Mamaearth Products</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="Bottom-LogoXs">
+                <a title="Home" href="/" class="Bottom-logo"
+                  ><img
+                    src="https://newassets.apollo247.com/images/ic_logo.png"
+                    title="Online Doctor Consultation &amp; Medicines"
+                    alt="Online Doctor Consultation &amp; Medicines"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides((slideIndex += n));
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides((slideIndex = n));
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+
+    
+
+  }
+</script>
+
